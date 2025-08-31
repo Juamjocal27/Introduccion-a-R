@@ -1,6 +1,6 @@
-# Introducción a R
+![](./Sesión%201/img/RStudio.png)
 
-![Rstudio](./Sesión%201/img/RStudio.png)
+# Introducción a R
 
 1. Introducción
   - Que es R y RStudio
