@@ -1,0 +1,70 @@
+---
+title: "Introducción a R y RStudio"
+author: "Ing. Agr. Juan Jose Caparicona Marca"
+date: "2025-04-28"
+params:
+  state: "hawaii"
+output:
+   ioslides_presentation:
+    includes:
+    logo: ./img/RStudio.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ¿Que es R?
+
+- Es un lenguaje de programación interpretado.
+- De distribución libre bajo licencia GNU.
+- Multiplataforma.
+- R fue creado por Ross Taka y Robert Gentleman en Nueva Zelanda (1993).
+- Un lenguaje didactico para enseñanza de estadistica en la Universidad de Aucland.
+
+
+## IDE RStudio
+
+- Entorno de desarrollo integrado
+- Desarrollado por Posit.
+![Rstudio](./img/RStudio.png)
+
+## Descargando y instalando R y RStudio
+
+- [Descarga de R](https://cran.r-project.org/)
+- [Descarga RStudio](https://posit.co/download/rstudio-desktop/)
+
+## Interfaz de R y RStudio
+
+- Barra de herramientas
+- Paneles
+  - Editor de codigo.
+  - Consola.
+  - Entorno de variables.
+  - Utilidades.
+  
+## Instalación de paquetes
+
+Cada paquete es una colección de funciones diseñadas para un trabajo.
+
+Repositorios: 
+
+* CRAN
+* Bioconductor
+* GitHub
+
+## CRAN
+
+Comprehensive R Archive Network
+
+Instalación de paquetes
+
+- [Descarga RTools](https://cran.r-project.org/bin/windows/Rtools/)
+
+## Principales paquetes en R
+
+* dplyr
+* Shiny
+* ggplot2
+
+`install.packages("ggplot2")`
